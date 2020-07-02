@@ -144,6 +144,22 @@ li:hover
     text-shadow: 0px 0px 0px black;
 }
 
+.listaogloszenia > li{
+    width: auto;
+    padding: 15px;
+    padding-top: 12px;
+    text-shadow: 0px 0px 0px black;
+}
+
+.listaogloszenia > li :hover{
+    width: auto;
+    display: block;
+    padding: 15px;
+    transform: none;
+    margin-top: -3px;
+    text-shadow: 0px 0px 0px black;
+}
+
 .sekcja > ul > li:hover{
     width: auto;
     display: block;
@@ -192,7 +208,7 @@ li:hover
 .sekcja
 {
     width: 700px;
-    float: left;
+    float: right ;
     background-color: rgba(256, 256, 256, 0.750);
     padding: 30px;
     border-radius: 20px;
@@ -204,18 +220,48 @@ li:hover
     margin-right: auto;
 }
 
+.sekcja2{
+    width: 700px;
+    float: right ;
+    background-color: rgba(256, 256, 256, 0.750);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 9px 10px 29px 5px rgba(0,0,0,0.75);
+    max-width: 800px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
 .articlenav
 {
-    float: right;
+    float: left;
     width: 300px;
     margin: 20px;
     margin-top: 0px;
     background-color: rgba(256, 256, 256, 0.750);
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: 9px 10px 29px 5px rgba(0,0,0,0.75);
     max-height: 1200px;
     background-image: url(zdj/1sky.jpg);
+}
+
+.sekcja2nalinijke{
+    width: 270px;
+    float: right ;
+    background-color: rgba(256, 256, 256, 0.750);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 9px 10px 29px 5px rgba(0,0,0,0.75);
+    max-width: 800px;
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: auto;
+    background-image: url(zdj/1sky.jpg);
+    text-align: center;
 }
 
 hr{
